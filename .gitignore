@@ -1,0 +1,61 @@
+# Local Codex/session metadata
+.codex
+.codex/
+
+# R session and history files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+envs/
+
+# R dependency libraries and renv runtime state
+renv/library/
+renv/staging/
+renv/python/
+processing_scripts/renv/library/
+processing_scripts/renv/staging/
+processing_scripts/renv/python/
+
+# Input data and large photo assets
+data/**
+!data/
+!data/.keep
+!data/all_data/
+!data/all_data/.gitkeep
+
+# Generated outputs, logs, crops, and processed photos
+outputs/**
+!outputs/
+!outputs/.keep
+!outputs/hemi_photo_cropped/
+!outputs/hemi_photo_cropped/.gitkeep
+!outputs/hemi_photo_processed/
+!outputs/hemi_photo_processed/.gitkeep
+!outputs/results/
+!outputs/results/.gitkeep
+
+# Common generated result files if written outside outputs/
+*.log
+LAI_results*.csv
+LAI_processed*.csv
+LAI_corrected*.csv
+wood_removal_results.csv
+
+# OS and file-manager metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and local machine files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

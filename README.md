@@ -7,9 +7,6 @@ This repository contains a small R-based pipeline for extracting leaf area index
 
 ## Project Structure
 
-`processing_scripts/`
-Legacy/original scripts kept unchanged.
-
 `scripts/`
 Active copies of the pipeline scripts using repo-local paths.
 
